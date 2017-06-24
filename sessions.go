@@ -13,7 +13,7 @@ import (
 	"strings"
 )
 
-var model = "pt-BR_BroadbandModel"
+var model = "ja-JP_BroadbandModel"
 
 // Result strct
 type Result struct {

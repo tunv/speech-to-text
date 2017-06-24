@@ -3,7 +3,7 @@ IBM Bluemix, the Speech to Text service converts the human voice into the writte
 
 ## Install
 
-`go get github.com/nuveo/speech-to-text`
+`go get github.com/tunv/speech-to-text`
 
 Export to env `SPEECH_USERNAME` and `SPEECH_PASSWORD`.
 
@@ -14,7 +14,7 @@ _credentials getting in dashboard_
 
 ### bin
 ```
-cd $GOPATH/src/github.com/nuveo/speech-to-text/speech
+cd $GOPATH/src/github.com/tunv/speech-to-text/speech
 go build
 ./speech -input /path/to/audio/file
 ```
